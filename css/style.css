@@ -898,7 +898,7 @@ a:focus {
   background-color: #e69c00;
 }
 
-/* footer section*/
+/* footer section */
 .footer_section {
   background-color: #222831;
   color: #ffffff;
@@ -1003,5 +1003,23 @@ a:focus {
 
 .footer_section .footer-info p a {
   color: inherit;
+}
+
+/* New CSS for horizontal layout */
+.footer_section .container {
+  display: flex; /* Align items in a row */
+  justify-content: space-between; /* Distribute space between them */
+  align-items: flex-start; /* Align items at the top of the container */
+}
+
+.footer_section .footer-col {
+  margin: 0 20px; /* Add spacing between columns */
+  flex: 1; /* Make sure each section is evenly spaced */
+}
+
+.footer_section .footer_contact,
+.footer_section .footer_detail,
+.footer_section .footer_hours {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
